@@ -1,11 +1,14 @@
 import express from "express";
 
+import { router } from "./routes/index.js";
 const server = express();
 
-// futuramente interface Teste extends {}
 
-server.get("/", (req, res) => {
-  return res.send("Funcionou");
-});
+server.use(express.json()); // Middleware to parse JSON bodies
+
+server.use(router);  
+ 
+
+
 
 export { server };

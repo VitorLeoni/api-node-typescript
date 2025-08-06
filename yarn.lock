@@ -630,6 +630,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
+better-status-codes@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/better-status-codes/-/better-status-codes-2.1.0.tgz#20f5ced884b9135572a5d19d73a0b27ef4f2f234"
+  integrity sha512-QxVf8iYWQlAudZkdNU24e6wQ5yUpjBpcZ6XlI9NPhS0GkmgFc3S9W67hZToFkqOkuqg12TaT70Xi9LsbDAJoCA==
+
 binary-extensions@^2.0.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz"
