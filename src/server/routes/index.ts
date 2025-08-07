@@ -17,4 +17,4 @@ console.log(Status["Switching Protocols"]); // 101
   return res.status(Status.OK).json(req.body);
 });
 
-export { router };// futuramente interface Teste extends 
+export { router };
